@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
+    <style>
+        .justyfic{
+            display: flex;
+           
+            justify-content:center;
+        }
+    </style>
 </head>
-<body>
-   <!-- 
-    <img src="images/encendido.jpg" width="300px" alt=""/>-->
-    <button onclick="document.getElementById('bombillo').src='images/pic_bulbon.gif' ">Encender</button>
+<body >
+    <div class="justyfic">
+  <h1>Soy adicto al foco</h1> 
+</div> <br>
+<div >
+<div class="justyfic">
+    <div>
+    <button onclick="document.getElementById('bombillo').src='images/pic_bulbon.gif' ">Encender</button> </div>
     <img id="bombillo" src="images/pic_bulboff.gif" width="20%" alt=""/>
-    <button onclick="document.getElementById('bombillo').src='images/pic_bulboff.gif' ">Apagar</button>
+    <div>
+    <button onclick="document.getElementById('bombillo').src='images/pic_bulboff.gif' ">Apagar</button></div>
+</div>
 </body>
 </html>
