@@ -5,11 +5,11 @@ import bg from "../img/home.png"
 
 const Bg = styled.div`
   background-image: url(${bg});
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  height:1000px;
-  width: 100%;
+  height:1080px;
+  width: 1920px;
 `;
 
 const H1 = styled.h1`
