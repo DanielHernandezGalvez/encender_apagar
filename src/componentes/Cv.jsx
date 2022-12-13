@@ -1,26 +1,23 @@
 import React from "react";
 import styled from "styled-components";
 import CV from "../curriculum/curriculum.pdf";
+import pagina from "../img/html.png"
 
-const CvContainer = styled.object`
-  width: 100%;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
+
+const H2 = styled.h2`
+  color: #e3b041;
+  margin-left: 10%;
+  text-shadow: 2px 2px 10px black;
 `;
 
 const Cv = () => {
   return (
     <div>
-      <h2>Curriculim Vitae</h2>
+      <H2>Curriculim Vitae</H2>
 
-      <CvContainer
-        src={CV}
-        type="application/pdf"
-        frameborder="0"
-        width="900"
-        height="800"
-      ></CvContainer>
+      <a download href={CV} target="_blank">
+        <img src={pagina} />
+      </a>
     </div>
   );
 };
