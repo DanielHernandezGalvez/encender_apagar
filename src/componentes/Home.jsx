@@ -8,22 +8,25 @@ const Bg = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  width: 100vmax;
-  height: 55vmax;
+  width: 100vw;
+  height: auto;
 `;
 const Section = styled.div`
   display: flex;
+  flex-flow: row ;
   padding: 2%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   padding-top: 0;
 `;
 
 const H1 = styled.h1`
+
   font-size: 6vmax;
   color: #e6e6e6;
   margin-bottom: 1px;
+  text-shadow: 2px 2px 10px black;
 `;
 
 const H2 = styled.h2`
@@ -31,22 +34,20 @@ const H2 = styled.h2`
   color: #e6e6e6;
   font-style: italic;
   font-weight: lighter;
+  text-shadow: 2px 2px 10px black;
 `;
 
-const Block = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-`;
+
 const SubTitulo = styled.h2`
   color: #e3b041;
   margin-left: 10%;
+  text-shadow: 2px 2px 10px black;
 `;
 const Parrafo = styled.p`
   color: #e6e6e6;
   font-size: 1.5vmax;
-  margin-left: 7%;
+
+  text-shadow: 2px 2px 10px black;
 `;
 
 const Img = styled.img`
@@ -55,26 +56,28 @@ const Img = styled.img`
 `;
 const Home = () => {
   return (
-    <Bg>
-      <Section>
-        <Img src={foto} width="40%" />
+    <>
+      {" "}
+      <Bg>
+        <Section>
 
-        <div>
-          <H1>Daniel Gálvez</H1>
-          <H2>FrontEnd Developer</H2>
-        </div>
-      </Section>
-      <SubTitulo>Sobre mí</SubTitulo>
-      <Block>
-        <Parrafo>
-          soy una persona que la neta es bien buena
-          ondajhdhjskalkasjdhflaksdhflkdjfhglskdfghlskdfghlskdjfghl
-          <br />
-          skdjfhgslkdjfghslkdfjghslkdfjghlskdfj
-          ghlskdjfghslkdfjhglskdfjhglskdjfhglskdfhgl skdjfhglskdjfhglskjdfhgl
-        </Parrafo>
-      </Block>
-    </Bg>
+        
+          <Img src={foto} width="40%" />
+
+          <div>
+            <H1>Daniel Gálvez</H1>
+            <H2>FrontEnd Developer</H2>
+          </div>
+        </Section>
+        <SubTitulo>Sobre mí</SubTitulo>
+        <Section>
+       
+          <Parrafo>
+            Soy un desarrollador FrontEnd de Zapopan, México, me gusta to
+          </Parrafo>
+        </Section>
+      </Bg>
+    </>
   );
 };
 
