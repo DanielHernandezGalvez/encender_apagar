@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import CV from "../curriculum/curriculum.pdf";
-import pagina from "../img/html.png"
-
+import cvIcon from "../img/cv-icon.png";
 
 const H2 = styled.h2`
   color: #e3b041;
@@ -16,7 +15,7 @@ const Cv = () => {
       <H2>Curriculim Vitae</H2>
 
       <a download href={CV} target="_blank">
-        <img src={pagina} />
+        <img src={cvIcon} width="20%" />
       </a>
     </div>
   );
