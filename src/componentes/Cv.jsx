@@ -2,22 +2,35 @@ import React from "react";
 import styled from "styled-components";
 import CV from "../curriculum/curriculum.pdf";
 import cvIcon from "../img/cv-icon.png";
+import linked from "../img/linkedin.png";
+import gitHub from "../img/github_1.png";
 
-const H2 = styled.h2`
-  color: #e3b041;
-  margin-left: 10%;
-  text-shadow: 2px 2px 10px black;
+;
+const Img = styled.img`
+  height: 10vh;
 `;
 
+const Container = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`;
 const Cv = () => {
   return (
-    <div>
-      <H2>Curriculim Vitae</H2>
+    <>
+      {/* <H2>Curriculim Vitae</H2> */}
+      <Container>
+        <a download href={CV} target="_blank">
+          <Img src={cvIcon} />
+        </a>
 
-      <a download href={CV} target="_blank">
-        <img src={cvIcon} width="20%" />
-      </a>
-    </div>
+        <a href="https://github.com/DanielHernandezGalvez" target="_blank">
+          <Img src={gitHub} />
+        </a>
+        <a href="https://www.linkedin.com/in/-daniel-g%C3%A1lvez-70a897230/" target="_blank">
+          <Img src={linked} />
+        </a>
+      </Container>
+    </>
   );
 };
 

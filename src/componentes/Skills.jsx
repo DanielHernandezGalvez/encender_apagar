@@ -46,7 +46,7 @@ const SpanContainer = styled.div`
   box-shadow: 2px 2px 10px black;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color: rgba(227, 176, 65, 0.4);
+  background-color: rgba(227, 176, 65, 0.3);
   border-radius: 10px;
   border: none;
   
