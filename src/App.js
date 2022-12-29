@@ -4,22 +4,24 @@ import Gift from "./componentes/Gift";
 import Home from "./componentes/Home";
 import Proyectos from "./componentes/Proyectos";
 import Skills from "./componentes/Skills";
-// import Navbar from "./componentes/Navbar";
-// import BgAnimado from "./componentes/BgAnimado";
-
+import Navbar from "./componentes/Navbar/Navbar.jsx";
+import Contacto from "./componentes/Contacto";
 function App() {
   return (
+    
+    <>
+   
     <div className="App">
-      {/* <Navbar /> */}
+       <Navbar />
+      
       <Home />
-      <Cv />
       <Skills />
       <Proyectos />
       <Gift />
-
-      <Footer />
-      {/* <BgAnimado /> */}
+      <Contacto />
     </div>
+    <Footer />
+    </>
   );
 }
 

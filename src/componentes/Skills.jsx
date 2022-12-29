@@ -18,11 +18,14 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 5%;
+  /* padding: 1%; */
+  
 `;
 
 const Img = styled.img`
   width: 100%;
+  margin-bottom:20px;
+  padding:5px;
 `;
 const Span = styled.span`
   display: flex;
@@ -31,12 +34,26 @@ const Span = styled.span`
   flex-direction: column;
   color: #e6e6e6;
   font-weight: bold;
+  border-radius: 10px;
+  padding:5px;
+  &:hover{
+    transform:scale(1.03);
+    transition: 0.2s ease-out;
+    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.6);
+  }
 `;
 const SubTitulo = styled.h2`
   color: #e3b041;
   margin-left: 10%;
-  padding: 20px;
+  margin-top:-70px;
+  padding: 5%;
   text-shadow: 2px 2px 10px black;
+  @media only screen and (max-width: 1400px) {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+  }
 `;
 const SpanContainer = styled.div`
   width: 90vw;
@@ -60,9 +77,9 @@ margin-bottom: 10%;
 `
 const Skills = () => {
   return (
-    <Div>
+    <Div id="skills">
       <SpanContainer>
-        <SubTitulo>Tech Skills</SubTitulo>
+        <SubTitulo >Tech Skills</SubTitulo>
 
        
           <Container>

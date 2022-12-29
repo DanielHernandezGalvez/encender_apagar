@@ -8,6 +8,7 @@ const H2 = styled.h2`
   margin-left: 10%;
   text-shadow: 2px 2px 10px black;
   margin-bottom: 10%;
+  margin-top:20%;
 `;
 
 const ContenedorUno = styled.div`
@@ -15,6 +16,7 @@ const ContenedorUno = styled.div`
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 10%;
+  
 `;
 
 const Cajas = styled.span`
@@ -43,7 +45,7 @@ const A = styled.a`
 const Proyectos = () => {
   return (
     <>
-      <H2>Proyectos</H2>
+      <H2 id="proyectos">Proyectos</H2>
       <ContenedorUno>
         <div>
           <Cajas>
