@@ -1,4 +1,4 @@
-Este es mi portafolio de React.
+Este es mi portafolio como profesional del FrontEnd.
 
 
 
