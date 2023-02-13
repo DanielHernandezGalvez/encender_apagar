@@ -1,4 +1,4 @@
-Este es mi portafolio como profesional del FrontEnd.
+Este es mi portafolio web como profesional del FrontEnd.
 
 
 
