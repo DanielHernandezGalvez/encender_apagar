@@ -3,6 +3,7 @@ import styled from "styled-components";
 import bg from "../img/home.png";
 import foto from "../img/foto.png";
 
+
 const Bg = styled.div`
   background-image: url(${bg});
   background-size: contain;
