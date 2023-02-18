@@ -54,6 +54,7 @@ const SubTitulo = styled.h2`
   margin-top: 0;
   text-shadow: 2px 2px 10px black;
 `;
+
 const Parrafo = styled.p`
   color: #e6e6e6;
   font-size: 1.7vmax;
