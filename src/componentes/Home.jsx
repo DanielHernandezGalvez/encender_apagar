@@ -78,6 +78,7 @@ const Img = styled.img`
     transition: 0.3s ease-in-out;
   }
 `;
+
 const Home = () => {
   return (
     <>
