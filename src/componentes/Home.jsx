@@ -11,6 +11,7 @@ const Bg = styled.div`
   width: 100%;
   height: auto;
 `;
+
 const Section = styled.div`
   display: flex;
   flex-flow: row;
