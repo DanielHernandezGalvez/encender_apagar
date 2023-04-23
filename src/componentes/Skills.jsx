@@ -13,7 +13,6 @@ import bootstrap from "../img/bootstrap.png";
 import styled from "styled-components";
 
 
-
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -121,10 +120,7 @@ const Skills = () => {
               <Img src={sql} />
               SQL
             </Span>
-            <Span>
-              <Img src={posgres} />
-              Posgres
-            </Span>
+      
             <Span>
               <img src={bootstrap} width="75%" />
               Bootstrap
