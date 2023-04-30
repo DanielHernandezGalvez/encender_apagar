@@ -137,7 +137,7 @@ const Contacto = () => {
 
   return (
     <ContainerContact>
-      <Title>Contáctame</Title>
+      <Title>Contactn me</Title>
 
       <ContainerForm>
         {succesMessage ? (
