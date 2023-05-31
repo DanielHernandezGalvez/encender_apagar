@@ -1,4 +1,6 @@
 <details>
+  <summary>CV</summary>
+<details>
   <summary>Información Personal</summary>
   
   - Nombre: Daniel Alejandro Hernández Gálvez
@@ -41,6 +43,7 @@
   - Carrera de Desarrollo Frontend - CoderHouse
   - Licenciatura en Relaciones Públicas y Comunicación - Universidad de Guadalajara
 </details>
+  </details>
 
 
 
