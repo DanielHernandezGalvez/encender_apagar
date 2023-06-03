@@ -102,10 +102,8 @@ const Contacto = () => {
   const [errorSendForm, setErrorSendForm] = useState(false);
 
   const form = useRef();
-  // console.log(process.env.REACT_APP_EMAIL_JS_SERVICE_ID)
 
   const onSubmit = (e) => {
-    // console.log("contactDates");
     // evitar que se recargue
     e.preventDefault();
 
