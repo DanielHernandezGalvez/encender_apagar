@@ -17,7 +17,7 @@ const Container = styled.div`
 const Cv = () => {
   return (
     <>
-      {/* <H2>Curriculim Vitae</H2> */}
+    
       <Container>
         <a download href={CV} target="_blank">
           <Img src={cvIcon} />
