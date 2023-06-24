@@ -5,7 +5,6 @@ import cvIcon from "../img/cv-icon.png";
 import linked from "../img/linkedin.png";
 import gitHub from "../img/github_1.png";
 
-
 const Img = styled.img`
   height: 10vh;
 `;
