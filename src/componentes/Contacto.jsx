@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
-// Estilos
 
 const ContainerContact = styled.div`
   padding: 50px;
