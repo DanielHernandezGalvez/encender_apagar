@@ -82,7 +82,6 @@ const Img = styled.img`
 const Home = () => {
   return (
     <>
-      {" "}
       <Bg>
         <Section>
           <Img src={foto} width="40%" />
