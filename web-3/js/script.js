@@ -124,7 +124,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
 
 function showSuccessMessage() {
   const successMessage = document.createElement("h4");
-  successMessage.textContent = "Enviado con éxito";
+  successMessage.textContent = "Sent successfully";
   successMessage.style.color = "#00C896"; // Establece el color del texto a rojo
   successMessage.style.marginTop = "15px"; // Agrega un margen superior de 15px
   successMessage.style.fontSize = "2rem";
