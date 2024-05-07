@@ -19,9 +19,9 @@
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       emailjs.init("0r7G6_2ElA5h-KCxi");
-    </script>
+    </script> -->
   </head>
   <body>
     <!-- Header -->
@@ -88,7 +88,7 @@
           ><i class="bx bxl-github"></i
         ></a>
         <a
-          href="https://www.linkedin.com/in/-daniel-g%C3%A1lvez-70a897230/"
+          href="https://www.linkedin.com/in/-daniel-galvez-dev/"
           target="_blank"
           ><i class="bx bxl-linkedin"></i
         ></a>
@@ -158,12 +158,12 @@
 
           <div class="skills-box">
             <div class="skill-card">
-              <img src="./img/Python.png" alt="Python" />
-              <p>Python</p>
+              <img src="./img/wordpress.png" alt="Wordpress" />
+              <p>Wordpress</p>
             </div>
             <div class="skill-card">
-              <img src="./img/Django-Logo.png" alt="Django" />
-              <p>Django</p>
+              <img src="./img/mysql.png" alt="MySQL" />
+              <p>MySQL</p>
             </div>
 
             <div class="skill-card">
@@ -180,11 +180,11 @@
           </div>
 
           <div class="skills-box">
-            <div class="skill-card">
+            <!-- <div class="skill-card">
               <img src="./img/sass.png" alt="sass" />
               <p>SASS</p>
-            </div>
-            <div class="skill-card">
+            </div> -->
+            <!-- <div class="skill-card">
               <img src="./img/ilustrador.png" alt="" />
               <p>Ilustrador</p>
             </div>
@@ -195,31 +195,36 @@
             </div>
 
             <div class="skill-card">
+              <img src="./img/git.png" alt="" />
+              <p>Git</p>
+            </div> -->
+
+            <!-- <div class="skill-card">
               <img src="./img/photoshop.png" alt="" />
               <p>Photoshop</p>
-            </div>
+            </div> -->
             <span class="animate scroll" style="--i: 3"></span>
           </div>
 
-          <div class="skills-box end">
+          <!-- <div class="skills-box end">
             <div class="skill-card">
               <img src="./img/git.png" alt="" />
               <p>Git</p>
-            </div>
+            </div> -->
 
-            <div class="skill-card">
+            <!-- <div class="skill-card">
               <img src="./img/redux.png" alt="" />
               <p>Redux</p>
-            </div>
+            </div> -->
 
-            <div class="skill-card">
+            <!-- <div class="skill-card">
               <img src="./img/sql.png" alt="" />
               <p>SQL</p>
             </div>
             <div class="skill-card">
               <img src="./img/expressjs_logo.png" alt="" />
               <p>Express</p>
-            </div>
+            </div> -->
             <span class="animate scroll" style="--i: 3"></span>
           </div>
         </div>
@@ -254,21 +259,21 @@
         </div>
 
         <div class="proyects-card">
-          <h4>Work Timer</h4>
+          <h4>El creador web</h4>
           <a
-            href="https://play.google.com/store/apps/details?id=com.danigalvezdev.worktimer"
+            href="https://elcreadorweb.com"
             target="_blank"
           >
-            <img src="./img/pomodoro-100.jpg" alt="Prestamos" />
+            <img src="./img/elcreadorweb.png" alt="el creador web" />
           </a>
           <div class="tecnology">
-            <p>Pomodoro App for managing work and breaks</p>
-            <img src="./img/typescript.png" width="40px" alt="JavaScript" />
-            <img src="./img/native.png" width="40px" alt="HTML" />
+            <p>Web site to my freelance web delevopment</p>
+            <img src="./img/PHP-logo.svg.png" width="40px" alt="php" />
+            <img src="./img/mysql.png" width="40px" alt="mysql" />
           </div>
           <a
             class="href"
-            href="https://github.com/DanielHernandezGalvez/apps-moviles"
+            href="https://github.com/DanielHernandezGalvez/WebNegocios"
             target="_blank"
             >Repository</a
           >
@@ -299,23 +304,23 @@
         </div>
 
         <div class="proyects-card">
-          <h4>Blog API</h4>
+          <h4>Resume Generator</h4>
           <a
-            href="https://github.com/DanielHernandezGalvez/API-gestion-de-contenidos.git"
+            href="https://cvgenetator-dg.netlify.app/"
             target="_blank"
           >
-            <img src="./img/api.png" alt="Piano" />
+            <img src="./img/cv-generator.png" alt="Generador de pdf" />
           </a>
           <div class="tecnology">
             <p>
-              API for managing blog content with authentication and security
+              A resume PDF generator
             </p>
-            <img src="./img/Python.png" width="40px" alt="" />
-            <img src="./img/Django-Logo.png" alt="" />
+            <img src="./img/typescript.png" width="40px" alt="typescript" />
+            <img src="./img/reactjs.png" alt="reactjs" />
           </div>
           <a
             class="href"
-            href="https://github.com/DanielHernandezGalvez/API-gestion-de-contenidos.git"
+            href="https://github.com/DanielHernandezGalvez/Resume-Generator"
             target="_blank"
             >Repository</a
           >
@@ -323,21 +328,22 @@
         </div>
 
         <div class="proyects-card">
-          <h4>Astronomy App</h4>
+          <h4>Voz 21</h4>
           <a
-            href="https://play.google.com/store/apps/details?id=com.danigalvezdev.Astronomyapp"
+            href="https://voz21estudio.com/"
           >
-            <img src="./img/astronomy-100.jpg" alt="Astronomy" />
+            <img src="./img/voz21.png" alt="voz 21" />
           </a>
           <div class="tecnology">
-            <p>Astronomy App using NASA API</p>
+            <p>Catalog of Announcer voices</p>
             <img src="./img/typescript.png" width="40px" alt="JavaScript" />
-            <img src="./img/native.png" width="40px" alt="HTML" />
+            <img src="./img/tailwind.png" width="40px" alt="HTML" />
           </div>
           <a
             class="href"
-            href="https://github.com/DanielHernandezGalvez/apps-moviles.git"
-            >Repository</a
+            href="https://voz21estudio.com"
+            target="_blank"
+            >In Production</a
           >
           <span class="animate" style="--i: 2"></span>
         </div>
@@ -408,7 +414,7 @@
         Contact <span>Me!</span>
         <span class="animate scroll" style="--i: 1"></span>
       </h2>
-      <form id="form">
+      <form action="form.php" id="form" method="post">
         <div class="input-box">
           <div class="input-field">
             <input
@@ -460,13 +466,13 @@
     <hr />
     <footer class="footer">
       <div class="footer-text">
-        <p>Copyrigth &copy; 2023 Developed by <span>Daniel Galvez</span></p>
-        <span class="animate scroll" style="--i: 1"></span>
+        <p>Copyrigth &copy; 2024 Developed by <span>Daniel Galvez</span></p>
+        <!-- <span class="animate scroll" style="--i: 1"></span> -->
       </div>
 
       <div class="footer-iconTop">
         <a href="#"><i class="bx bx-chevron-up"></i></a>
-        <span class="animate scroll" style="--i: 2"></span>
+        <!-- <span class="animate scroll" style="--i: 2"></span> -->
       </div>
     </footer>
 
