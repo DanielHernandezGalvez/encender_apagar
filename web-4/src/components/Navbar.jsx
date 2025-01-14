@@ -1,4 +1,4 @@
-import logo from "../assets/raviKumarLogo.webp"
+import logo from "../assets/logo-amarillo.png"
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa"
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
                 <a 
-                    href="https//linkedin.com" 
+                    href="https://www.linkedin.com/in/-daniel-galvez-dev/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     aria-label="Linkedin"
@@ -19,7 +19,7 @@ const Navbar = () => {
                     <FaLinkedin />
                 </a>
                 <a 
-                    href="https//github.com" 
+                    href="https://github.com/DanielHernandezGalvez" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     aria-label="Github"

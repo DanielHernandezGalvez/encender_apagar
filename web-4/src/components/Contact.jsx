@@ -29,7 +29,12 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="#" className="border-b">
+        <a
+          href="mailto:hernandezgalvezalejandro@gmail.com"
+          rel="noopener noreferrer"
+          aria-label="Mail"
+          className="border-b"
+        >
           {CONTACT.email}
         </a>
       </div>

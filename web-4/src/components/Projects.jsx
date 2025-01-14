@@ -14,28 +14,34 @@ const Projects = () => {
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 flex flex-wrap lg:justify-center ">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/4 me-6"
             >
-              <img
-                src={project.image}
-                width={250}
-                height={250}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={project.image}
+                  width={250}
+                  height={250}
+                  alt={project.title}
+                  className="mb-6 rounded "
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl ms-4 lg:w-3/4"
+              className="w-full max-w-xl lg:w-3/4"
             >
-              <h3 className="mb-2 font-semibold text-2xl"><a href={project.link} target="_blank">{project.title}</a></h3>
+              <h3 className="mb-2 font-semibold text-2xl hover:underline transition-all duration-500">
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  {project.title}
+                </a>
+              </h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
               <p>
                 {project.technologies.map((tech, index) => (

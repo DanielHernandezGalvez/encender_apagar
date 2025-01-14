@@ -35,8 +35,8 @@ const Hero = () => {
             <motion.img
               src={profilepic}
               alt="Daniel Gálvez"
-              width={650}
-              height={650}
+              width={400}
+              height={400}
               className="border border-stone-900 rounded-3xl"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
@@ -65,6 +65,7 @@ const Hero = () => {
               Frontend Developer
             </motion.span>
             <motion.p 
+            id="about"
             variants={childVariants}
             className="my-2 max-w-lg py-6 text-xl leading-relaxed tricking-tighter">
               {HERO_CONTENT}
